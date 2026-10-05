@@ -1,26 +1,10 @@
 #include<stdio.h>
 int main(){
-    printf("    S  S   \n");
-    printf("  S      S \n");
-    printf("  S        \n");
-    printf("    S      \n");
-    printf("       S   \n");
-    printf("          S \n");
-    printf("           S \n");
-    printf("    S      S \n");
-    printf("      S  S   \n"); 
-
-    printf("_________________\n");
-
-    printf("         A   \n");
-    printf("       A   A  \n");
-    printf("      A     A  \n");
-    printf("     A       A  \n");
-    printf("    A  A A A  A  \n");
-    printf("   A           A  \n");
-    printf("  A             A  \n");
-    printf(" A               A  \n");
-    printf("A                 A  \n"); 
+    int i;
+    for(i=100; i>=0; i=i-2){
+       printf("%d, ",i);
+    }
+    printf(" \n %d\n",i);
     
     return 0;
 }

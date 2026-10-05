@@ -1,2 +1,0 @@
-Problem:
-At a party, every person shakes hands with every other person exactly once. If there are 10 people at the party, how many handshakes happen in total?
