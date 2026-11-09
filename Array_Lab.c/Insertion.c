@@ -15,10 +15,10 @@ int main(){
     printf("Enter value:");
     scanf("%d",&val);
 
-    for(int i=n; i>=pos; i--){
+    for(int i=n; i>pos; i--){
         arr[i]=arr[i-1];
     }
-    arr[pos-1]=val;
+    arr[pos]=val;
     n++;
 
     for(int i=0; i<n; i++){
